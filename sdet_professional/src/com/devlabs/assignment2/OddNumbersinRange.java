@@ -1,7 +1,5 @@
 package com.devlabs.assignment2;
 
-import java.util.Scanner;
-
 public class OddNumbersinRange {
 
 	public static void main(String[] args) {
