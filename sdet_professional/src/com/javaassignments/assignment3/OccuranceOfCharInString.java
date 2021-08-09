@@ -1,4 +1,4 @@
-package com.devlabs.assignment3;
+package com.javaassignments.assignment3;
 
 import java.util.HashMap;
 

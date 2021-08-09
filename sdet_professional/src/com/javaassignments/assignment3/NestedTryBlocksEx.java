@@ -1,4 +1,4 @@
-package com.devlabs.assignment3;
+package com.javaassignments.assignment3;
 
 public class NestedTryBlocksEx {
 

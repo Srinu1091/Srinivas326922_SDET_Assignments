@@ -1,4 +1,4 @@
-package com.devlabs.assignment2;
+package com.javaassinments.assignment2;
 
 public class OddNumbersinRange {
 

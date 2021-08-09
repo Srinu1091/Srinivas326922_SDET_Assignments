@@ -1,4 +1,4 @@
-package com.devlabs.assignment4;
+package com.javaassignments.assignment4;
 
 import java.util.*;;
 
