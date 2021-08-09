@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.selenium__assignments.pages.AmazonPages;
+import com.selenium_assignments.pages.AmazonPages;
 
 public class TC_AmazonSearch_001 extends testBase {
 	

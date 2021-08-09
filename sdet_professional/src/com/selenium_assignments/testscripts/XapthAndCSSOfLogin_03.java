@@ -11,7 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.selenium__assignments.pages.Test3OrangeHRMPageWithXpathAndCSS;
+import com.selenium_assignments.pages.Test3OrangeHRMPageWithXpathAndCSS;
 
 
 

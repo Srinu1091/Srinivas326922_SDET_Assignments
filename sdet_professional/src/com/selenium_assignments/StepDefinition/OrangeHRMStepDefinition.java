@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.selenium__assignments.pages.OrangeHRMPage;
+import com.selenium_assignments.pages.OrangeHRMPage;
 
 public class OrangeHRMStepDefinition {
 

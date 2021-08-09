@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.selenium__assignments.pages.OrangeHRMPage;
+import com.selenium_assignments.pages.OrangeHRMPage;
 
 public class ITestListener extends testBase {
 	public static WebDriver driver;

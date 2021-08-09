@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.selenium__assignments.pages.OrangeHRMPage;
+import com.selenium_assignments.pages.OrangeHRMPage;
 
 public class Test13Scenario extends testBase {
 	WebDriver driver;
