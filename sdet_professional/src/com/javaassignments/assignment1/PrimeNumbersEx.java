@@ -1,4 +1,4 @@
-package com.devlabs.assignment1;
+package com.javaassignments.assignment1;
 
 public class PrimeNumbersEx {
 
