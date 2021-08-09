@@ -8,7 +8,7 @@ public class AvgOfArray {
 			 int[] arr = new int[5]; //declaration
 		       
 		    
-		        int sum =0;
+		        double sum =0;
 		        double avg;
 		        
 		        Scanner reader = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class AvgOfArray {
 		         avg=sum/arr.length;
 		     
 		        System.out.println("Sum is " +sum);
-		        System.out.println("Avg is"+ avg);
+		        System.out.println("Avg is "+avg);
 
 		}
 

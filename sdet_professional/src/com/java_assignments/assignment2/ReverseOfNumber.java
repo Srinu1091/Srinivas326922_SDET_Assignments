@@ -1,6 +1,6 @@
 package com.java_assignments.assignment2;
 
-import java.util.Scanner;
+
 
 public class ReverseOfNumber {
 
