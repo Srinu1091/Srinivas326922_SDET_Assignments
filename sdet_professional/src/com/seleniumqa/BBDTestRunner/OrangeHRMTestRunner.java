@@ -1,4 +1,4 @@
-package com.qa.BBDTestRunner;
+package com.seleniumqa.BBDTestRunner;
 
 
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.qa.listener;
+package com.seleniumqa.listener;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

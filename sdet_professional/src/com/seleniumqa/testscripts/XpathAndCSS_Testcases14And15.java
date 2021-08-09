@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.qa.pages.OrangeHRMPage;
+import com.seleniumqa.pages.OrangeHRMPage;
 
 public class XpathAndCSS_Testcases14And15 {
 

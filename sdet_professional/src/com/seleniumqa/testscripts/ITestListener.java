@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 
 import java.io.FileInputStream;
@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.qa.pages.OrangeHRMPage;
+import com.seleniumqa.pages.OrangeHRMPage;
 
 public class ITestListener extends testBase {
 	public static WebDriver driver;
@@ -74,7 +74,7 @@ public class ITestListener extends testBase {
 	}
 	
 		
-	@Test(priority=2 , retryAnalyzer=com.qa.listener.RetryAnalyzer.class)
+	@Test(priority=2 , retryAnalyzer=com.seleniumqa.listener.RetryAnalyzer.class)
     public void ListenerFunction() throws Exception   {
 		String HeaderText;
 		HeaderText=OrangeOR.getDashBoardHeaderText();

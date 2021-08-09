@@ -1,4 +1,4 @@
-package com.qa.utilities;
+package com.seleniumqa.utilities;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

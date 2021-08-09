@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 import java.io.File;
 import java.io.FileInputStream;

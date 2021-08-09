@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.qa.pages.OrangeHRMPage;
+import com.seleniumqa.pages.OrangeHRMPage;
 
 public class Annotations_06To10 {
 	

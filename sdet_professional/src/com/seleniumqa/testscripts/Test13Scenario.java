@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 
 import java.io.FileInputStream;
@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.qa.pages.OrangeHRMPage;
+import com.seleniumqa.pages.OrangeHRMPage;
 
 public class Test13Scenario extends testBase {
 	WebDriver driver;

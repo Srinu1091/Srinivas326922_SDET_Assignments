@@ -1,4 +1,4 @@
-package com.qa.pages;
+package com.seleniumqa.pages;
 
 
 import java.util.List;

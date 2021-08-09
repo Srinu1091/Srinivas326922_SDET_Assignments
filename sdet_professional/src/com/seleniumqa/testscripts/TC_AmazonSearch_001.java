@@ -1,4 +1,4 @@
-package com.qa.testscripts;
+package com.seleniumqa.testscripts;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.qa.pages.AmazonPages;
+import com.seleniumqa.pages.AmazonPages;
 
 public class TC_AmazonSearch_001 extends testBase {
 	

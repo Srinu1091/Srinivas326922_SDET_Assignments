@@ -1,4 +1,4 @@
-package com.qa.StepDefinition;
+package com.seleniumqa.StepDefinition;
 
 
 
@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.qa.pages.OrangeHRMPage;
+import com.seleniumqa.pages.OrangeHRMPage;
 
 public class OrangeHRMStepDefinition {
 
