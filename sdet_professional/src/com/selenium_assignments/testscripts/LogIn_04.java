@@ -23,10 +23,11 @@ public class LogIn_04 {
 	    driver.manage().window().maximize();
 	}
 	@Test
-	public void LoginToApp() {
+	public void LoginToApp() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
         driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
         driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
+        Thread.sleep(10000);
 	}
 	
 	@AfterClass

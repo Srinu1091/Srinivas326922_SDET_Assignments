@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OrangeHRMPage {
 
-	WebDriver Driver;
+	public static WebDriver Driver;
 	
 	@FindBy(id="menu_admin_viewAdminModule")
 	WebElement AdminLink;

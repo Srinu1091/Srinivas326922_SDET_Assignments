@@ -16,7 +16,7 @@ import com.selenium_assignments.pages.OrangeHRMPage;
 
 public class ValidateTextInAdminTab_05 {
 	WebDriver driver;
-	OrangeHRMPage OrangeOR;
+	OrangeHRMPage OrangeOR = new OrangeHRMPage(driver);
 	
 	
 		
@@ -24,8 +24,8 @@ public class ValidateTextInAdminTab_05 {
 	public void OpenUrlWithBrowser() {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sharmadeep\\Selenium\\chromedriver.exe");  
-	    WebDriver driver=new ChromeDriver();  
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hey\\Downloads\\chromedriver_win32\\chromedriver.exe");  
+	    driver=new ChromeDriver();  
 	    driver.get(" https://opensource-demo.orangehrmlive.com/");
 	    driver.manage().window().maximize();
 	}

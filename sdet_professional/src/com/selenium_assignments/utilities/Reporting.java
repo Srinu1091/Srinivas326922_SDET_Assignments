@@ -40,7 +40,7 @@ public class Reporting extends TestListenerAdapter{
 		
 		xReport = new ExtentReports();
 		xReport.attachReporter(HtmlReporter);
-		xReport.setSystemInfo("QA name", "Jyothi");
+		xReport.setSystemInfo("QA name", "Srinivas");
 			
 		
 	}

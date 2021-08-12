@@ -51,7 +51,7 @@ public class ITestListener extends testBase {
 	@Test(priority=1)
 	public void LogInToApp() throws Exception {
 		try {
-			fileLoc = new FileInputStream("C:\\Users\\sharmadeep\\eclipse-workspace\\com.qa.devlabs.selenium\\src\\test\\java\\com\\qa\\utilities\\Testdata.properties");
+			fileLoc = new FileInputStream("C:\\Users\\Hey\\git\\Srinivas326922_SDET_Assignments\\sdet_professional\\src\\com\\selenium_assignments\\utilities\\Testdata.properties");
 			prop = new Properties();
 			prop.load(fileLoc);
 		}catch(Exception e) {

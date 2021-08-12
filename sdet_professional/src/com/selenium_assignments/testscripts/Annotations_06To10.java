@@ -18,6 +18,7 @@ public class Annotations_06To10 {
 	
 	public static WebDriver driver;
 	OrangeHRMPage OrangeOR;
+	
 
 	//testcase 9 :  Write a method (avoid using Test annotation) to minimize the window.
 	public void MinimizeBrowser() {
@@ -34,13 +35,13 @@ public class Annotations_06To10 {
 	public void setUp() {
 		
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sharmadeep\\Selenium\\chromedriver.exe");  
-	    WebDriver driver=new ChromeDriver();  
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hey\\Downloads\\chromedriver_win32\\chromedriver.exe");  
+	    driver=new ChromeDriver();  
 	    driver.get(" https://opensource-demo.orangehrmlive.com/");
 	    driver.manage().window().maximize();
 		// Used constructor for Minimize the browser without using annotation test 9
-		Annotations_06To10 NewConst=new Annotations_06To10();
-		NewConst.MinimizeBrowser();
+	    Annotations_06To10 construct=new Annotations_06To10();
+		construct.MinimizeBrowser();
 		
 		
 	}

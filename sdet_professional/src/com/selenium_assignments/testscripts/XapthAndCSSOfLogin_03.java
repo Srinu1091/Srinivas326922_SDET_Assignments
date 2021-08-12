@@ -1,7 +1,7 @@
 package com.selenium_assignments.testscripts;
 
 import java.io.FileInputStream;
-import java.util.Properties;
+import java.util.*;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,23 +16,26 @@ import com.selenium_assignments.pages.Test3OrangeHRMPageWithXpathAndCSS;
 
 
 public class XapthAndCSSOfLogin_03 {
-	WebDriver driver;
-	Test3OrangeHRMPageWithXpathAndCSS OrangeOR;
+	static WebDriver driver;
+	static Test3OrangeHRMPageWithXpathAndCSS OrangeOR;
 
 	
 	
 	@BeforeTest
 	public void OpenUrlWithBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sharmadeep\\Selenium\\chromedriver.exe");  
-	    WebDriver driver=new ChromeDriver();  
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hey\\Downloads\\chromedriver_win32\\chromedriver.exe");  
+	    driver=new ChromeDriver();  
 	    driver.get(" https://opensource-demo.orangehrmlive.com/");
 	    driver.manage().window().maximize();
 	}
 	@Test
 	public void PrintTitle() {
 		// Text Boxes
-		Assert.assertTrue(OrangeOR.CheckUserNamWithXpathDisplayed());
+		System.out.println("error in code");
+		Assert.assertTrue(OrangeOR.CheckUserNameWithXpathDisplayed());
+		System.out.println("error in code in line2");
 		Reporter.log("Log In Page - Object Indentification - User Name with Xpath - Passed", true);
+		System.out.println("error in code in line 3");
 		Assert.assertTrue(OrangeOR.CheckUserNamWithCSSDisplayed());
 		Reporter.log("Log In Page - Object Indentification - User Name with CSS - Passed", true);
 		
@@ -67,6 +70,6 @@ public class XapthAndCSSOfLogin_03 {
 	
 	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 }
