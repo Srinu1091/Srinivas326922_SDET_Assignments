@@ -16,12 +16,16 @@ import com.selenium_assignments.pages.OrangeHRMPage;
 
 public class Annotations_06To10 {
 	
-	public static WebDriver driver;
+	public  WebDriver driver;
 	OrangeHRMPage OrangeOR;
 	
+	
+
+	
+
 
 	//testcase 9 :  Write a method (avoid using Test annotation) to minimize the window.
-	public void MinimizeBrowser() {
+	public  void MinimizeBrowser() {
 		Point p = driver.manage().window().getPosition();
 		Dimension d = driver.manage().window().getSize();
 		driver.manage().window().setPosition(new Point((d.getHeight()-p.getX()), (d.getWidth()-p.getY())));
@@ -30,7 +34,7 @@ public class Annotations_06To10 {
 	
 	//testcase 6 : Launch a browser in @Beforesuite annotation and open url .
 	
-	@Parameters({"browser"})
+	//@Parameters({"browser"})
 	@BeforeSuite
 	public void setUp() {
 		
@@ -40,8 +44,8 @@ public class Annotations_06To10 {
 	    driver.get(" https://opensource-demo.orangehrmlive.com/");
 	    driver.manage().window().maximize();
 		// Used constructor for Minimize the browser without using annotation test 9
-	    Annotations_06To10 construct=new Annotations_06To10();
-		construct.MinimizeBrowser();
+	   // Annotations_06To10 construct=new Annotations_06To10(driver);
+	   // Annotations_06To10.MinimizeBrowser();
 		
 		
 	}
@@ -60,6 +64,7 @@ public class Annotations_06To10 {
 	public void ClickOnTabsAndValidateTitle() throws InterruptedException {
 		String strTitle;
 		String strURL;
+		OrangeOR = new OrangeHRMPage(driver);
 		
 		
 		OrangeOR.ClickOnAdminLink();
@@ -106,6 +111,7 @@ public class Annotations_06To10 {
 	public void ReadDashBoardHeader() throws InterruptedException {
 		/// test 10
 		String strText;
+		OrangeOR = new OrangeHRMPage(driver);
 		OrangeOR.ClickOnDashBoardLink();
 		Thread.sleep(3000);
 		strText=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/h1")).getText();

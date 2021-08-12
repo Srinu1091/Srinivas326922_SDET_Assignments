@@ -15,8 +15,8 @@ import com.selenium_assignments.pages.OrangeHRMPage;
 
 
 public class ValidateTextInAdminTab_05 {
-	WebDriver driver;
-	OrangeHRMPage OrangeOR = new OrangeHRMPage(driver);
+	public WebDriver driver;
+	//OrangeHRMPage OrangeOR = new OrangeHRMPage(driver);
 	
 	
 		
@@ -44,6 +44,7 @@ public class ValidateTextInAdminTab_05 {
 	//• Qualifications
 	@Test
 	public void validateTextsAdminTab() {
+		OrangeHRMPage OrangeOR = new OrangeHRMPage(driver);
 		OrangeOR.ClickOnAdminLink();
 		Assert.assertTrue(OrangeOR.CheckAdminPageUserManagementTextExist());
 		Reporter.log("User Management Text Displayed on Admin Page", true);

@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8012" started-at="2021-08-12T03:01:22Z" finished-at="2021-08-12T03:01:30Z">
+  <suite name="Default suite" duration-ms="20969" started-at="2021-08-12T06:24:15Z" finished-at="2021-08-12T06:24:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8012" started-at="2021-08-12T03:01:22Z" finished-at="2021-08-12T03:01:30Z">
-      <class name="com.selenium_assignments.testscripts.Annotations_06To10">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium_assignments.testscripts.Annotations_06To10@3a82f6ef]" name="setUp" is-config="true" duration-ms="9485" started-at="2021-08-12T08:31:13Z" finished-at="2021-08-12T08:31:22Z">
+    <test name="Default test" duration-ms="20969" started-at="2021-08-12T06:24:15Z" finished-at="2021-08-12T06:24:36Z">
+      <class name="com.selenium_assignments.testscripts.ValidateTextInAdminTab_05">
+        <test-method status="PASS" signature="OpenUrlWithBrowser()[pri:0, instance:com.selenium_assignments.testscripts.ValidateTextInAdminTab_05@6cc4c815]" name="OpenUrlWithBrowser" is-config="true" duration-ms="17792" started-at="2021-08-12T11:54:15Z" finished-at="2021-08-12T11:54:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginToApp()[pri:1, instance:com.selenium_assignments.testscripts.Annotations_06To10@3a82f6ef]" name="LoginToApp" duration-ms="7947" started-at="2021-08-12T08:31:22Z" finished-at="2021-08-12T08:31:30Z">
+        </test-method> <!-- OpenUrlWithBrowser -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.selenium_assignments.testscripts.ValidateTextInAdminTab_05@6cc4c815]" name="LoginToApp" is-config="true" duration-ms="2259" started-at="2021-08-12T11:54:33Z" finished-at="2021-08-12T11:54:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method status="FAIL" signature="ClickOnTabsAndValidateTitle()[pri:2, instance:com.selenium_assignments.testscripts.Annotations_06To10@3a82f6ef]" name="ClickOnTabsAndValidateTitle" duration-ms="4" started-at="2021-08-12T08:31:30Z" finished-at="2021-08-12T08:31:30Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="validateTextsAdminTab()[pri:0, instance:com.selenium_assignments.testscripts.ValidateTextInAdminTab_05@6cc4c815]" name="validateTextsAdminTab" duration-ms="110" started-at="2021-08-12T11:54:35Z" finished-at="2021-08-12T11:54:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#menu_admin_viewAdminModule"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-KNSDJRN', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Hey\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31ffdd27982fd28f4eeee542d7202262
+*** Element info: {Using=id, value=menu_admin_viewAdminModule}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.selenium_assignments.testscripts.Annotations_06To10.ClickOnTabsAndValidateTitle(Annotations_06To10.java:65)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#menu_admin_viewAdminModule"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-KNSDJRN', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Hey\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31ffdd27982fd28f4eeee542d7202262
+*** Element info: {Using=id, value=menu_admin_viewAdminModule}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.selenium_assignments.pages.OrangeHRMPage.ClickOnAdminLink(OrangeHRMPage.java:16)
+	at com.selenium_assignments.testscripts.ValidateTextInAdminTab_05.validateTextsAdminTab(ValidateTextInAdminTab_05.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,51 +84,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnTabsAndValidateTitle -->
-        <test-method status="FAIL" signature="ReadDashBoardHeader()[pri:3, instance:com.selenium_assignments.testscripts.Annotations_06To10@3a82f6ef]" name="ReadDashBoardHeader" duration-ms="9" started-at="2021-08-12T08:31:30Z" finished-at="2021-08-12T08:31:30Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.selenium_assignments.testscripts.Annotations_06To10.ReadDashBoardHeader(Annotations_06To10.java:109)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReadDashBoardHeader -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium_assignments.testscripts.Annotations_06To10@3a82f6ef]" name="tearDown" is-config="true" duration-ms="761" started-at="2021-08-12T08:31:31Z" finished-at="2021-08-12T08:31:31Z">
+        </test-method> <!-- validateTextsAdminTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium_assignments.testscripts.ValidateTextInAdminTab_05@6cc4c815]" name="tearDown" is-config="true" duration-ms="768" started-at="2021-08-12T11:54:36Z" finished-at="2021-08-12T11:54:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium_assignments.testscripts.Annotations_06To10 -->
+      </class> <!-- com.selenium_assignments.testscripts.ValidateTextInAdminTab_05 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -16,8 +16,8 @@ import com.selenium_assignments.pages.Test3OrangeHRMPageWithXpathAndCSS;
 
 
 public class XapthAndCSSOfLogin_03 {
-	static WebDriver driver;
-	static Test3OrangeHRMPageWithXpathAndCSS OrangeOR;
+	public WebDriver driver;
+	//static Test3OrangeHRMPageWithXpathAndCSS OrangeOR;
 
 	
 	
@@ -31,11 +31,12 @@ public class XapthAndCSSOfLogin_03 {
 	@Test
 	public void PrintTitle() {
 		// Text Boxes
-		System.out.println("error in code");
+		Test3OrangeHRMPageWithXpathAndCSS OrangeOR = new Test3OrangeHRMPageWithXpathAndCSS(driver);
+		//System.out.println("error in code");
 		Assert.assertTrue(OrangeOR.CheckUserNameWithXpathDisplayed());
-		System.out.println("error in code in line2");
+		//System.out.println("error in code in line2");
 		Reporter.log("Log In Page - Object Indentification - User Name with Xpath - Passed", true);
-		System.out.println("error in code in line 3");
+		//System.out.println("error in code in line 3");
 		Assert.assertTrue(OrangeOR.CheckUserNamWithCSSDisplayed());
 		Reporter.log("Log In Page - Object Indentification - User Name with CSS - Passed", true);
 		
